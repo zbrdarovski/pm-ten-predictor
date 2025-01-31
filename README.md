@@ -10,10 +10,13 @@ Recurrent neural network that predicts presence of PM10 particles in air
 
 ## Folder Structure
 
-`app.py` - api that runs the PM10 prediction model
+`app.py` api that runs the PM10 prediction model
+
 `Dockerfile` set of instructions used to build a Docker image
-`predictor.py` - RNN implementation of PM10 predictor
-`requirements.txt` - Python libraries required to run the app inside a Docker container
+
+`predictor.py` RNN implementation of PM10 predictor
+
+`requirements.txt` Python libraries required to run the app inside a Docker container
 
 ## Technologies Used
 
